@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff4081; 
+    color: #ff4081; /* A vibrant pink */
 }
 
 h1, h2, h3 {
@@ -45,7 +45,7 @@ h1, h2, h3 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Resume Styles */
 .resume-body {
     background-color: #f0f4f7;
 }
@@ -74,7 +74,7 @@ ul li {
     margin-bottom: 10px;
 }
 
-
+/* Garage Styles */
 .garage-body {
     background-color: #eceff1;
 }
@@ -95,12 +95,15 @@ ul li {
 }
 
 .car-video iframe {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 800px; /* Max width to maintain proportions */
+    height: 450px; /* Fixed height for video */
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Apex Styles */
 .apex-body {
     background-color: #1a1a1a;
     color: #fff;
@@ -127,14 +130,14 @@ ul li {
     margin: 0 auto 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 100%; 
+    max-width: 80%; /* Limit image size for a cleaner look */
     height: auto;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effects */
 }
 
 .legend-info img:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); 
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
 
 .gameplay-tips {
@@ -145,7 +148,7 @@ ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-
+/* Responsive */
 @media (max-width: 600px) {
     nav ul li {
         display: block;
@@ -166,5 +169,10 @@ ul li {
 
     h2 {
         font-size: 1.5rem;
+    }
+
+    /* Responsive Video */
+    .car-video iframe {
+        height: 250px; /* Adjust height for small screens */
     }
 }
