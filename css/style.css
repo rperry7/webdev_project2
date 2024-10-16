@@ -5,130 +5,15 @@ body {
     background-color: #f4f4f4;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-ul li a:hover {
-    color: #ff0000;
-}
-
 nav {
     text-align: center;
     padding: 10px 0;
     background-color: #222;
 }
 
-header h1 {
-    text-align: center;
-}
-
-.resume-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.resume-header h1 {
-    font-family: 'Georgia', serif;
-    text-align: center;
-    color: #333;
-}
-
-.resume-section {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.resume-section ul {
-    list-style-type: circle;
-    padding-left: 20px;
-}
-
-.resume-section a:hover {
-    color: #0073b1;
-    text-decoration: underline;
-}
-
-.garage-body {
-    background: linear-gradient(to bottom, #333, #666);
-    font-family: 'Arial', sans-serif;
-}
-
-.garage-header h1 {
-    font-family: 'Impact', sans-serif;
-    color: #ff0000;
-    text-shadow: 2px 2px #000;
-    text-align: center;
-}
-
-.car-info img {
-    border: 3px solid #555;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.car-video iframe {
-    padding: 10px;
-    border: 2px solid #222;
-}
-
-.apex-body {
-    background-color: #222;
-    color: #eee;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.apex-header h1 {
-    text-align: center;
-    color: #f00;
-}
-
-.apex-section h2 {
-    font-family: 'Orbitron', sans-serif;
-    color: #ffcc00;
-    border-bottom: 2px solid #ffcc00;
-    padding-bottom: 5px;
-}
-
-.apex-section img {
-    transition: transform 0.3s ease;
-    border: 3px solid #333;
-}
-
-.apex-section img:hover {
-    transform: scale(1.05);
-    border-color: #ffcc00;
-}
-
-.apex-section ul {
-    padding-left: 20px;
-    color: #ddd;
-}
-
-.apex-section ul li {
-    margin-bottom: 5px;
-    font-style: italic;
-}
-
 nav ul {
-    background-color: #222;
-    padding: 15px 0;
+    display: inline-block;
+    padding: 0;
 }
 
 nav ul li {
@@ -137,6 +22,7 @@ nav ul li {
 }
 
 nav ul li a {
+    text-decoration: none;
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
@@ -146,3 +32,92 @@ nav ul li a:hover {
     color: #ff0000;
 }
 
+header h1 {
+    text-align: center;
+}
+
+body.index {
+    font-family: 'Roboto', sans-serif;
+}
+
+.index header h1 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #333;
+}
+
+.index section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.index ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.index a:hover {
+    color: #0073b1;
+    text-decoration: underline;
+}
+
+body.cars {
+    background: linear-gradient(to bottom, #333, #666);
+    font-family: 'Arial', sans-serif;
+}
+
+.cars header h1 {
+    font-family: 'Impact', sans-serif;
+    color: #ff0000;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+}
+
+.cars section img {
+    border: 3px solid #555;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+body.apex {
+    background-color: #222;
+    color: #eee;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.apex header h1 {
+    text-align: center;
+    color: #f00;
+}
+
+.apex section h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+.apex section img {
+    transition: transform 0.3s ease;
+    border: 3px solid #333;
+}
+
+.apex section img:hover {
+    transform: scale(1.05);
+    border-color: #ffcc00;
+}
+
+.apex ul {
+    padding-left: 20px;
+    color: #ddd;
+}
+
+.apex ul li {
+    margin-bottom: 5px;
+    font-style: italic;
+}
