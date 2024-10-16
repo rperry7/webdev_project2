@@ -60,6 +60,16 @@ h1, h2, h3 {
     text-align: center;
 }
 
+.car-description {
+    background-color: #fff;
+    border: 2px solid #ff5722;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .car-video {
     text-align: center;
 }
@@ -67,7 +77,7 @@ h1, h2, h3 {
 .car-info img,
 .legend-info img {
     max-width: 300px;
-    height: 400;
+    height: 400px;
     border: 5px solid #ff5722;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -102,6 +112,15 @@ h1, h2, h3 {
     margin: 20px auto;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.legend-info img {
+    display: block;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
 }
 
 .gameplay-tips {
