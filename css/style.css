@@ -98,14 +98,14 @@ h1, h2, h3 {
 }
 
 .apex-header {
-    background-color: #800080; /* Purple banner for apex.html */
+    background-color: #800080; 
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 .apex-header h2 {
-    color: #800080; /* Purple text for h2 tags */
+    color: #800080; 
 }
 
 .legend-info {
@@ -124,7 +124,7 @@ h1, h2, h3 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 300px;
     height: 400px;
-    border: 5px solid #d32f2f; /* Border color for apex.html */
+    border: 5px solid #d32f2f; 
 }
 
 .gameplay-tips {
