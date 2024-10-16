@@ -77,11 +77,12 @@ h1, h2, h3 {
 .car-info img,
 .legend-info img {
     max-width: 300px;
-    height: 400px;
+    height: auto;
     border: 5px solid #ff5722;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
+    display: block;
 }
 
 .car-video iframe {
@@ -136,7 +137,7 @@ h1, h2, h3 {
         display: block;
         margin-bottom: 10px;
     }
-    
+
     nav ul li a {
         font-size: 1.2rem;
     }
