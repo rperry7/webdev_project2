@@ -54,7 +54,8 @@ h2, h3 {
     background-color: #eceff1;
     margin: 0 auto;
     width: 80%;
-    overflow: hidden; /* To clear floats */
+    overflow: hidden;
+    display: flow-root;
 }
 
 .garage-header {
@@ -70,7 +71,7 @@ h2, h3 {
     text-align: center;
     float: left;
     width: 45%;
-    margin: 20px;
+    margin: 20px 2.5%; 
 }
 
 .car-description {
@@ -78,7 +79,7 @@ h2, h3 {
     border: 2px solid #ff5722;
     border-radius: 8px;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px 2.5%;
     max-width: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #333;
@@ -86,7 +87,6 @@ h2, h3 {
     line-height: 1.8;
     float: left;
     width: 45%;
-    margin-right: 20px;
 }
 
 .car-info img {
@@ -102,7 +102,7 @@ h2, h3 {
     display: flex;
     justify-content: center;
     margin: 20px auto;
-    clear: both; /* Ensures content clears floated elements */
+    clear: both;
 }
 
 .car-video iframe {
@@ -154,7 +154,7 @@ h2, h3 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     color: #fff;
-    clear: both; /* Ensures content clears floated elements */
+    clear: both; 
 }
 
 .resume-body {
@@ -207,7 +207,7 @@ ul {
     }
 
     .car-info, .car-description, .legend-info {
-        width: 100%; /* Stacks elements vertically on smaller screens */
+        width: 100%; 
         margin: 10px 0;
     }
 
